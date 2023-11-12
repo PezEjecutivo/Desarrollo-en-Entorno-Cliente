@@ -13,3 +13,17 @@ function cambiar(){
     }
 
 }
+
+//Script del ejercicio
+let primero = 9%5;
+let segundo = 7;
+let tercero = 7;
+let cuarto = 7;
+let potencia = 2**3;
+let verdad = true;
+document.write("9%5 devuleve " + primero + "<br>");
+document.write("Usamos 7++ = " + (segundo++) + " Usamos ++7 = "+ (++segundo) + "<br>");
+document.write("Usamos 7-- = " + (tercero--) + " Usamos --7 = "+ (--tercero) + "<br>");
+document.write("La potencia de 2 a 3 es: " + potencia + "<br>");
+document.write("Si añadimos - a 7 es: " + (-cuarto) + "<br>");
+document.write("+true es: " + (+verdad) + "<br>");

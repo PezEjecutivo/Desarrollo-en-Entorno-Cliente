@@ -13,3 +13,20 @@ function cambiar(){
     }
 
 }
+
+//Script del ejercicio
+let nombre = prompt("Introduce tu nombre");
+let edad = prompt("Introduce tu edad");
+let mensaje = "";
+
+if(edad<=12){
+    mensaje="Niño";
+}else if(edad>=13 && edad<=17){
+    mensaje="Adolescente";
+}else if(edad>=18 && edad<=64){
+    mensaje="Trabajador";
+}else{
+    mensaje="Jubilado";
+}
+
+console.log("%c " + nombre + " tiene " + edad + " años y por tanto es " + mensaje, "color: green; font-weigth: bold;");

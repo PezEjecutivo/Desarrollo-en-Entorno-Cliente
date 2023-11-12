@@ -13,3 +13,10 @@ function cambiar(){
     }
 
 }
+
+//Script para el ejercicio
+for(let i=0; i<100; i++){
+    if(i%7==0){
+        document.write("El numero " + i + " es multiplo de 7<br>");
+    }
+}

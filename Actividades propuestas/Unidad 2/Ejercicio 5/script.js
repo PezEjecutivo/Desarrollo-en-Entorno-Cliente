@@ -13,3 +13,10 @@ function cambiar(){
     }
 
 }
+
+//Script del ejercicio
+let nombre = prompt("Introduce tu nombre");
+let mensaje = "Un enano te ofrece una galleta, que haces?";
+let respuesta = confirm(mensaje);
+alert("Has elegido: " + respuesta);
+console.log("%c «FIN DEL PROGRAMA»", "color:blue; font-weigth: bold;");

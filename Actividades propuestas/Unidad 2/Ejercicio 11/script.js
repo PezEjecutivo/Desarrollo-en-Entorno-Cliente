@@ -13,3 +13,13 @@ function cambiar(){
     }
 
 }
+
+//Script del ejercicio
+let adivinar = "";
+do {
+    adivinar = prompt("¿Cual letra crees que es? ");
+    if(adivinar!="s"){
+        console.log("Bien hecho!! la letra secreta era la s");
+    }
+} while (adivinar!="s");
+console.log("Bien hecho!! la letra secreta era la s");
