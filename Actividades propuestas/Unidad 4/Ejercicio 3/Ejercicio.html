@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Actividad Propuesta 4.3</title>
 </head>
-<body>
+<body id="cuerpo" class="blanco">
     <h1><u>Adivina la palabra</u></h1>
     <p>Escribe una función que, a partir de una palabra establecida por el programador, reciba como parámetros un 
         número variable de letras y muestre en pantalla solo las coincidencias entre la palabra secreta y las letras 
@@ -20,11 +20,14 @@
         <b>adivina('a', 'e', 'i', 'o', 'u', 'd', 'n')</b>, la salida del programa debe ser <b>-a--en-o.</b>
     </p>
 
+
     <footer>
         <div class="imagen">
             <img src="./EjecutivoAzul.png" alt="">
+            <button id="cambiarEstilo" class="btn btn-dark" onclick=cambiar()>Cambiar estilo</button>
         </div>
         <div class="contenedor">
+            
             <span class="copyright">&copy;2023, Pablo Valladares Gonzalez. Todos los derechos reservados.</span>
         </div>
     </footer>
