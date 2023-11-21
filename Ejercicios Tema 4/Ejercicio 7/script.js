@@ -15,3 +15,21 @@ function cambiar(){
 }
 
 //Script para los ejercicios
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+(async = async function (){
+    document.getElementById("texto").innerHTML = "Comenzando";
+    await sleep(1000);
+    document.getElementById("texto").innerHTML = "Comenzando.";
+    await sleep(1000);
+    document.getElementById("texto").innerHTML = "Comenzando..";
+    await sleep(1000);
+    document.getElementById("texto").innerHTML = "Comenzando...";
+    await sleep(1000);
+    document.getElementById("texto").innerHTML = "Finalizado";
+
+})();
+
+
