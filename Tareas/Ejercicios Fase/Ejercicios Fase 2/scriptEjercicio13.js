@@ -1,0 +1,1 @@
+var varUsuario = prompt("Escribe el nombre de la variable que quieres tener");
